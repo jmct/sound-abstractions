@@ -1,0 +1,161 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{gray}{RGB}{160,160,160}
+\definecolor{dark-gray}{RGB}{60,60,60}
+\definecolor{white}{RGB}{240,240,240}
+\definecolor{galois-blue}{RGB}{0,122,209}
+\definecolor{lucid-blue}{RGB}{41,170,225}
+\definecolor{dark-lucid-blue}{RGB}{0,125,179}
+\definecolor{galois-yellow}{RGB}{255, 219, 13}
+\definecolor{my-magenta}{RGB}{184,26,91}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=dark-lucid-blue,
+    filecolor=my-magenta,      
+    urlcolor=my-magenta,
+    }
+
+\begin{document}
+\title{Computer Music and Sound Abstractions\\HDCC106}
+\author{José Manuel Calderón Trilla \\ (\href{mailto:jmct@umd.edu}{jmct@umd.edu})}
+\date{\vspace{-5ex}}
+
+\maketitle
+
+\section{Course Information}
+
+\vspace{24pt}
+
+\begin{center}
+\begin{tabular}{l|l}
+  \hline
+  Time:         & Tues/Thur 12:30-13:45 \\
+  Place:        & PFR 1105\\
+  Instructor:   & JMCT\\
+  Office:       & IRB 2248\\
+  Office Hours: & Mon/Wed 10:00-12:00 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\section{Course Description}
+
+Telling computers how to make music requires a model of computation as well as a model of music.
+We can reason about these models using abstractions.
+Abstractions allow us to express intent without getting bogged down in potentially irrelevant details.
+Musical notation is one such abstraction, as are the languages we write programs in.
+These abstractions are powerful, they can free us from tedium, help guide our thoughts toward a solution, or even limit what we're able to express (which may be a good thing!).
+We will look at the history of musical notation, including modern production tools, and various computer languages for music making with the goal of seeing how they shape our music and relate to the concept of abstraction.
+
+\section{Learning Objectives}
+
+\begin{itemize}
+  \item Reason about abstractions, particularly ones relating to music.
+  \item Form an understanding of Western Music notation, how it relates (if at all) to the physics of sound, and how it is but one possible abstraction for music.
+  \item Gain an intuition for `soundness', a property of an abstraction.
+  \item Refine a personal aesthetic for the abstractions that are encountered in every day life.
+\end{itemize}
+
+\section{Course Materials}
+
+\begin{itemize}
+  \item Readings, provided by the instructor
+  \item Readings, provided by students
+  \item Sonic Pi (\url{https://sonic-pi.net/})[encouraged but optional]
+  
+\end{itemize}
+
+\section{Grading}
+
+\vspace{24pt}
+
+\begin{center}
+\begin{tabular}{l|r}
+  \hline
+  Class Participation  & 10\%\\
+  Submitted Readings   & 20\%\\
+  Submitted Writing    & 20\%\\
+  Exam \#1             & 15\%\\
+  Exam \#2             & 15\%\\
+  Final Project        & 15\%\\
+  Capstone Preparation & 5\%\\
+  \hline
+\end{tabular}
+\end{center}
+
+\subsection*{Class Participation}
+
+\begin{itemize}
+  \item Students are expected to attend class and take part in discussions.
+  \item All pre-assigned readings should be completed \emph{before} the beginning of class.
+  \item Some of the readings will be suggested by other students. Careful study of these readings is an important part of this course and the Class Participation grade.
+\end{itemize}
+
+\subsection*{Submitted Readings}
+
+\begin{itemize}
+  \item On the even-numbered weeks (weeks 2,4,6 \dots) students will be expected to submit a proposed reading for the class.
+  \item Each submitted reading should be accompanied by a small blurb explaining your motivation for the suggestion, and why it is relevant to the topics discussed during class.
+  \item Some of these suggestions will then be assigned for the rest of class.
+  \item It should be a goal to have one of your suggested readings assigned to the class.
+  \item Grade will be based on how relevant your submitted readings are and whether you have engaged with them yourself.
+\end{itemize}
+
+\subsection*{Submitted Writing}
+
+\begin{itemize}
+  \item On the odd-numbered weeks (weeks 1,3,5 \dots) students will be expected to submit a short document (no more than 500 words).
+  \item The submission can be:
+    \begin{itemize}
+      \item a short essay on the topics covered
+      \item questions regarding the material (along with your current thoughts on the topic)
+      \item a creative work (any medium) that leverages a concept discussed in class and a short justification
+    \end{itemize}
+  \item Grade will be based on how relevant your submission is and whether it passes the bar for `good faith effort'
+\end{itemize}
+
+\subsection*{Exams}
+
+\begin{itemize}
+  \item Each exam will be taken 1-on-1 with the instructor at time scheduled with the student.
+  \item The exam will cover the concepts discussed in class, the readings, and that particular student's submitted readings.
+\end{itemize}
+
+\subsection*{Final Project}
+
+\begin{itemize}
+  \item The final project can be an essay or a creative work on a topic related to the topics covered in class.
+  \item Each student is responsible for agreeing on a topic for their final project with the instructor.
+  \item Possible projects include:
+    \begin{itemize}
+      \item A piece of music composed using a particular abstraction developed by the student (and a short explanation)
+      \item An essay discussing a chosen abstraction and whether that abstraction is `sound'.
+      \item A document outlining the design of a language for music (or some other artistic medium).
+    \end{itemize}
+\end{itemize}
+
+\subsection*{Capstone Preparation\footnote{Text taken shamelessly from Jessica Lu's syllabus}}
+
+
+Throughout the course of the semester, all students in the DCC Mu class will be asked to begin preparing for their second-year Capstone project.
+This spring, you will attend at least one Capstone Ideas workshop, facilitated virtually by a member of the DCC staff, as well as the annual Capstone fair.
+Attending these events will help you begin thinking about potential ideas for your work—in terms of content, method, presentation, and community-building.
+
+
+\section{Email Policy}
+
+All email to Jos\'{e} should have \verb`[HDCC106]` at the start of the subject line.
+Any messages without this header may not be seen for an extended period of time.
+Messages via ELMS will not be seen.
+
+
+\section{UMDCP Policies}
+
+The University of Maryland, College Park has a variety of policies regarding the running of a course.
+Including, but not limited to, policies and guidelines regarding Academic Integrity, Student Conduct, Accessibility, Student Rights, etc.
+You can read these policies here: \url{https://www.ugst.umd.edu/courserelatedpolicies.html}.
+
+\end{document}
